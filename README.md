@@ -7,3 +7,12 @@ Integrantes del Equipo
 Nicolás Gallardo
 Tengo 23 años. Vivo en Resistencia, Chaco. Me gusta la programación, la música y las series. Estoy en continua formación como programador full stack y mi sueño es poder algun día ejercerlo profesionalmente.
 
+
+Sitios de referencia
+
+https://21deseptiembre.com/
+Este sitio fue elegido poruqe comercializa ambos para profesional de la salud, por lo que tiene el mismo público objetivo.
+
+https://www.ambosalabama.com/ 
+Este sitio resalta principalmente por su estética.Es visualmente atractivo y también tiene el mismo público objetivo que nuestro proyecto. 
+
