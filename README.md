@@ -16,3 +16,10 @@ Este sitio fue elegido poruqe comercializa ambos para profesional de la salud, p
 https://www.ambosalabama.com/ 
 Este sitio resalta principalmente por su estética.Es visualmente atractivo y también tiene el mismo público objetivo que nuestro proyecto. 
 
+
+María Fernanda Niveyro. 21 años. Vivo en Fontana-Chaco a 15 minutos del centro de Resistencia-Chaco. Me gustan los idiomas, me gusta la programación y en mis tiempos libres me gusta estar con mi familia y amigos. Mi mayor meta es algún día poder desenvolverme profesionalmente en el mundo de la programación y poder aportar mi grano de arena.
+
+
+Mi sitio de referencia para este proyecto de e-Commerce es el siguiente:
+
+- https://www.guernicaargentina.com.ar/ La elegí porque me gustó mucho la distribución y organización de los contenidos, además de que comercializa los mismos productos que nosotros en este proyecto, y también por su estética y gamas de colores.
