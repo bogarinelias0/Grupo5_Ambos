@@ -23,3 +23,14 @@ María Fernanda Niveyro. 21 años. Vivo en Fontana-Chaco a 15 minutos del centro
 Mi sitio de referencia para este proyecto de e-Commerce es el siguiente:
 
 - https://www.guernicaargentina.com.ar/ La elegí porque me gustó mucho la distribución y organización de los contenidos, además de que comercializa los mismos productos que nosotros en este proyecto, y también por su estética y gamas de colores.
+
+
+
+
+Elias Aaron Bogarin. Tengo 19 años, vivo en fontana, Chaco.Estudio programacion actualmente y en mis ratos libres me gusta escuchar musica y aprender a hacer beats.
+
+Mi sitio de referencia es:
+
+https://www.olliambos.com/tienda/
+
+Elegi este sitio por la forma de mostrar los productos y el diseño
