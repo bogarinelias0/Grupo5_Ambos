@@ -34,3 +34,12 @@ Mi sitio de referencia es:
 https://www.olliambos.com/tienda/
 
 Elegi este sitio por la forma de mostrar los productos y el diseño
+
+
+Analuz Albornoz. Tengo 24 años, vivo en La Plata, Buenos Aires. Me gusta la programación, y en mis tiempos libres me gusta leer y seguir aprendiendo con todo lo relacionado a tecnologias y programación.
+
+Mi sitio de referencia es:
+
+https://oh-wear.com/
+
+Elegí este sitio porque me gusto por la manera en como esta distribuido su contenido,me  gusto sus diseños y su variedad.
