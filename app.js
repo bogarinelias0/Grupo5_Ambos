@@ -8,6 +8,11 @@ app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/index.html');
 });
 
+
+app.get('/carrito', (req,res)=>{
+    res.sendFile(__dirname + '/views/productCart.html');
+});
+
 app.listen(process.env.PORT||3000, function(){
     console.log("Servidor corriendo en puerto 3000");
 });

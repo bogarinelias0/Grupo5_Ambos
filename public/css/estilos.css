@@ -34,7 +34,15 @@
 /* Navbar :) */
 nav{
     background-color: #F3D3CCff;
+    padding-top: 20px;
 }
+
+#nameMarca {
+    font-family: 'The Nautigal', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
 @media (min-width:360px){
     nav ul{
         display: flex;
@@ -126,6 +134,8 @@ nav{
     }
     .name-barsearch input{
         display: flex;
+        max-height: 30px;
+        align-self: center;
     }
 }
 
