@@ -43,38 +43,44 @@ nav{
     font-weight: 300;
 }
 
-@media (min-width:360px){
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    
-    nav ul li{
-        list-style: none;
-        padding-bottom: 10px;
-        display: none;
-    }
-    .icon-bar{
-        text-align: end;
-        position: relative;
-        margin-top: -10px;
-    }
-    .icon-bar i{
-        font-size: 40px;
-        padding-right: 20px;
-    }
-    nav h2{
-        text-align: center;
-        margin-top: -30px;
-    }
-    .name-barsearch input{
-        display: none;
-    }
-    .icons-desktop{
-        display: none;
-    }
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+    
+nav ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.icon-bar{
+    text-align: end;
+    position: relative;
+    margin-top: -10px;
+}
+
+.icon-bar i{
+    font-size: 40px;
+    padding-right: 20px;
+}
+    
+nav h2{
+    text-align: center;
+    margin-top: -30px;
+}
+    
+.name-barsearch input{
+    display: none;
+}
+
+.icons-desktop{
+    display: none;
+}
+
+
 @media (min-width:769px){
     .icon-bar{
         display: none;
