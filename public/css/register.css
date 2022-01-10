@@ -48,3 +48,18 @@ main p a{
     font-weight: bold;
     color: black;
 }
+
+.acomodar{
+    display: flex;
+    justify-content: center;
+}
+.acomodar label a{
+    padding-left: 15px;
+}
+.box-check{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
