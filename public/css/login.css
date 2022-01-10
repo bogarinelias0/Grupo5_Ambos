@@ -35,3 +35,24 @@ main p a{
     font-weight: bold;
     color: black;
 }
+.acomodar{
+    display: flex;
+    justify-content: center;
+}
+.acomodar label{
+    padding-left: 15px;
+}
+.box-check{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+.contraseña{
+    line-height: 25px;
+    inline-size: 300px;
+}
+ .fa-eye-slash{
+    margin-right: -12px;
+}
