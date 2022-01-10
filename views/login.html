@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=The+Nautigal&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <title>Ambos Seven - LOGIN</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon-bar">
+            <i class="fab fa-buffer"></i>
+            </div>
+            <div class="name-barsearch">
+            <h2 id="nameMarca">Ambos Seven</h2>
+            <input type="search" name="" id="">
+            </div>
+            <div class="icons-desktop">
+            <article>
+                <i class="fas fa-search"></i>  
+        </nav>
+    </header>
+    <main>
+        <form action="/login" method="POST" class="login">
+            <h3 class="control-login">
+                <label class="h3">LOGIN</label>
+            </h3>
+            <p class="control-login">
+                <label>EMAIL</label>
+                <input type="email" name="email" placeholder="tunombre@email.com">
+            </p>
+            <p class="control-login">
+                <label>CONTRASEÑA</label>
+                <input type="password" name="password"><i class="fas fa-eye-slash"></i>
+            </p>
+            <p class="control-login">
+                <label>RECORDARME</label>
+                <input type="checkbox" name="recordarme">
+            </p>
+            <p class="control-login">
+                <label>¿Olvidaste tu contraseña?</label>
+            </p>
+            <p class="control-login">
+                <button type="submit" class="boton"><strong>INGRESAR</strong></button>
+            </p>
+            <p class="control-login">
+                <label>¿No tienes cuenta aún?</label>
+                <a href="/register"><strong>CREAR CUENTA</strong></a>
+            </p>
+    </main>
+</body>
+</html>
