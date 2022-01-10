@@ -43,3 +43,6 @@ Mi sitio de referencia es:
 https://oh-wear.com/
 
 Elegí este sitio porque me gusto por la manera en como esta distribuido su contenido,me  gusto sus diseños y su variedad.
+
+Link del tablero de trabajo de Trello:
+https://trello.com/b/ouhEYxZQ/tareas
