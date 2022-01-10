@@ -46,6 +46,10 @@ app.get('/productos', (req,res)=>{
     res.sendFile(__dirname + '/views/catalogoDeProductos.html');
 });
 
+app.get('/productCart', (req, res)=>{
+    res.sendFile(__dirname + '/views/productCart.html');
+})
+
 
 app.listen(process.env.PORT || 3000, function() {
     console.log("Servidor corriendo en puerto 3000");

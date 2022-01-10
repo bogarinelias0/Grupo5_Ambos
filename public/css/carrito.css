@@ -82,3 +82,11 @@
 #carrito a:hover {
     text-decoration: underline;
 }
+
+body header nav h2 a{
+    font-family: 'The Nautigal', cursive;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 550;
+    color: black;
+}
