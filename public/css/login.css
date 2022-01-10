@@ -29,3 +29,9 @@ h3{
     background-color: #fa5284ff;
     transition: background-color,0.3s;
 }
+
+main p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
