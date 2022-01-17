@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bogarinelias0/Grupo5_Ambos#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2"
   }
 }
