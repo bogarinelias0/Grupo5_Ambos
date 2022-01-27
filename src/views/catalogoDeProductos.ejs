@@ -24,66 +24,20 @@
 
             <!--Al presionar este boton aparecera un cuadro con opciones de filtrado avanzadas-->
             <button type="button" class="btn"><i class="fas fa-filter"></i></button>
-            
 
         </div>
 
         <section id="productosDestacados">
-
+          <% for (let i =0; i<productos.length; i++) { %>
             <article>
-              <img src="/images/producto1.jpg" alt="ambo">
+              <img src= <%=productos[i].srcImg%> >
               <div>
-              <h3>Ambo 1</h3>
-              <h3>$3500</h3>
-              <i class="far fa-plus-square"></i>
+                <h3><%= productos[i].nombre%></h3>
+                <h3>$<%= productos[i].precio%></h3>
+                <i class="far fa-plus-square"></i>
               </div>
             </article>
-  
-            <article>
-              <img src="/images/producto2.jpg" alt="ambo">
-              <div>
-              <h3>Ambo 2</h3>
-              <h3>$2500</h3>
-              <i class="far fa-plus-square"></i>
-              </div>
-            </article>
-  
-            <article>
-              <img src="/images/producto3.jpg" alt="ambo">
-              <div>
-              <h3>Ambo 3</h3>
-              <h3>$4500</h3>
-              <i class="far fa-plus-square"></i>
-              </div>
-            </article>
-  
-            <article>
-              <img src="/images/producto4.jpg" alt="ambo">
-              <div>
-              <h3>Ambo 4</h3>
-              <h3>$3000</h3>
-              <i class="far fa-plus-square"></i>
-              </div>
-            </article>
-  
-            <article>
-              <img src="/images/producto5.jpg" alt="">
-              <div>
-              <h3>Ambo 5</h3>
-              <h3>$2800</h3>
-              <i class="far fa-plus-square"></i>
-              </div>
-            </article>
-  
-            <article>
-              <img src="/images/producto6.jpg" alt="">
-              <div>
-              <h3>Ambo 6</h3>
-              <h3>$3500</h3> 
-              <i class="far fa-plus-square"></i>
-              </div>
-            </article>
-
+          <%}%> 
         </section>
 
     </main>

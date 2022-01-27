@@ -58,74 +58,18 @@
         <h2 class="titulo2">Productos Destacados</h2>
 
         <section id="productosDestacados">
-
-            <article>
-                <img src="/images/producto1.jpg" alt="ambo">
+            <% for (let i =0; i<productos.length; i++) { %>
+              <article>
+                <img src= <%=productos[i].srcImg%> >
                 <div>
-                    <h3>Ambo 1</h3>
-                    <h3>$3500</h3>
-                    <!--agregue href-->
-                    <a href="producto/detalle/1">
-                        <i class="far fa-plus-square"></i> </a>
+                  <h3><%= productos[i].nombre%></h3>
+                  <h3>$<%= productos[i].precio%></h3>
+                  <a href="producto/detalle/<%=(i+1)%>"><i class="far fa-plus-square"></i></a>
                 </div>
-            </article>
+              </article>
+            <%}%> 
+          </section>
 
-            <article>
-                <img src="/images/producto2.jpg" alt="ambo">
-                <div>
-                    <h3>Ambo 2</h3>
-                    <h3>$2500</h3>
-                    <!--agregue href-->
-                    <a href="/producto/detalle/2">
-                        <i class="far fa-plus-square"></i> </a>
-                </div>
-            </article>
-
-            <article>
-                <img src="/images/producto3.jpg" alt="ambo">
-                <div>
-                    <h3>Ambo 3</h3>
-                    <h3>$4500</h3>
-                    <!--agrege href-->
-                    <a href="/producto/detalle/3">
-                        <i class="far fa-plus-square"></i> </a>
-                </div>
-            </article>
-
-            <article>
-                <img src="/images/producto4.jpg" alt="ambo">
-                <div>
-                    <h3>Ambo 4</h3>
-                    <h3>$3000</h3>
-                    <!--agrege href-->
-                    <a href="/producto/detalle/4">
-                        <i class="far fa-plus-square"></i></a>
-                </div>
-            </article>
-
-            <article>
-                <img src="/images/producto5.jpg" alt="ambo">
-                <div>
-                    <h3>Ambo 5</h3>
-                    <h3>$2800</h3>
-                    <!--agrege href-->
-                    <a href="/producto/detalle/5">
-                        <i class="far fa-plus-square"></i></a>
-                </div>
-            </article>
-
-            <article>
-                <img src="/images/producto6.jpg" alt="ambo">
-                <div>
-                    <h3>Ambo 6</h3>
-                    <h3>$3500</h3>
-                    <!--agrege href-->
-                    <a href="/producto/detalle/6">
-                        <i class="far fa-plus-square"></i></a>
-                </div>
-            </article>
-
-        </section>
     </main>
 
     <%- include('./partials/footer') %>
