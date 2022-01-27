@@ -1,12 +1,12 @@
 const controlador= {
     catalogo: (req,res)=>{
-        res.sendFile("catalogoDeProductos.html",{root:"./views"});
+        res.render("catalogoDeProductos");
     },
 
     detalle: (req, res) => {
         let idProducto =req.params.idProducto;
-        let recurso = "productDetail"+idProducto+".html";
-        res.sendFile(recurso,{root:"./views"});
+        let recurso = "productDetail"+idProducto;
+        res.render(recurso);
     }
 
 };

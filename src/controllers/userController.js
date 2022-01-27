@@ -1,10 +1,10 @@
 const controlador= {
     login:(req, res) => {
-        res.sendFile('login.html',{root:"./views"});
+        res.render('login');
     },
 
     registro:(req, res)=>{
-        res.sendFile('register.html',{root:"./views"});
+        res.render('register');
     },
 };
 

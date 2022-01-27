@@ -1,6 +1,6 @@
 const controlador = {
     home:(req, res) => {
-        res.sendFile('index.html',{root:"./views"});
+        res.render('index');
     },
 }
 
