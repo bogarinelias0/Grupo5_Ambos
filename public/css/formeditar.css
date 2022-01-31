@@ -1,0 +1,115 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title i{
+    font-size: 20px;
+}
+
+/* Tabs */
+
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 25px;
+    justify-content: space-around;
+}
+.tabs-label{
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+
+}
+.tabs-radio{
+    display: none;
+}
+.tabs-content{
+    order: 1;
+    width: 100%;
+    border-bottom: 3px solid #dddddd;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.tabs-content label{
+    font-size: 20px;
+}
+
+.tabs-radio:checked+.tabs-label{
+    font-weight: bold;
+    color: #009578;
+    border-bottom: 2px solid #009578;
+}
+.tabs-radio:checked+.tabs-label+.tabs-content{
+    display: initial;
+}
+
+
+
+
+
+/* fin tabs */
+.file{
+    font-size: 15px;
+}
+main img{
+    width: 250px;
+    height: 200px;
+    margin: 40px;
+}
+.name{
+    padding-top: 30px;
+}
+/* Inputs */
+
+
+.description #description{
+    height: 35px;
+    width: 150px;
+    margin: 10px 0px 2px 10px;
+}
+.description label{
+    position: relative;
+    top: 0;
+}
+.price label{
+    padding-right: 10px;
+}
+
+.stock-form output{
+    border: 2px solid black;
+    padding: 2px;
+}
+.stock-form{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.stock-form h5{
+    padding-bottom: 15px;
+}
+/* fin inputs */
+
+
+
+/* mediaqueris */
+
+@media (min-width:769px) {
+    .tabs-content label{
+        padding-left: 80px;
+        padding-right: 160px;
+    }
+    #name{
+        margin-left: -15px;
+    }
+    #description{
+        padding-left: 59px;
+        padding-right: 43px;
+        margin-left: 68px !important;
+    }
+
+}
