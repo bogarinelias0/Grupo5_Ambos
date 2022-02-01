@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/estilos.css">
+
+    <%- include('./partials/head')%>
+</head>
+
+<body>
+    <%- include('./partials/navbar') %>
+        main class="main-container-create">
+
+        <div class="form-group-create">
+
+
+            <h1 class="title">Creación Nuevo Producto</h1>
+
+            <form class="form-button" action="/products/list" method="post" enctype="multipart/form-data">
+                <input class="login-button" type="text" name="name" placeholder="Nombre del Producto" required>
+                <br>
+                <input class="login-button" type="textarea" name="description" placeholder="Descripción del Producto" required>
+                <br>
+                <label for="img">Subir Imagen</label>
+                <input class="login-button" type="file" name="img" placeholder="Subir Imagen" required>
+                <br>
+                <label for="Talles">Seleccionar Talle</label>
+                <select class="login-button" value="Talles" name="Talles" placeholder="Seleccionar Talle">
+                <option value="categories">XS</option>
+                <option value="categories">S</option>
+                <option value="categories">M</option>
+                <option value="categories">L</option>
+                <option value="categories">XL</option>
+            </select>
+                <br>
+                <label for="Color">Seleccionar Color</label>
+                <select class="login-button" value="Color" name="Color" placeholder="Seleccionar por Color">
+                <option value="categories">Negro</option>
+                <option value="categories">Rojo</option>
+                <option value="categories">Blanco</option>
+                <option value="categories">Celeste</option>
+                <option value="categories">Rosado</option>
+                <option value="categories">Gris</option>
+                <option value="categories">Naranja</option>
+                <option value="categories">Azul</option>
+                <option value="categories">Amarillo</option>
+                <option value="categories">Verde</option>
+                <option value="categories">Combinado</option>
+                <option value="categories">Tricolor</option>
+
+
+
+
+            </select>
+
+                <br>
+                <label for="Precio">Precio del Producto</label>
+                <input class="login-button" type="number" name="Precio" step="any" min="1" placeholder="Precio" required>
+
+                <button class="send" type="submit">Entregar</button>
+            </form>
+
+        </div>
+
+
+        </main>
+        <!-- footer -->
+        <%- include('../partials/footer')%>
+</body>
+
+</html>

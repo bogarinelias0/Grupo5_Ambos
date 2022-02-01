@@ -3,7 +3,8 @@ const path = require("path");
 const app = express();
 
 //Config de EJS Template Engine
-app.set("view engine","ejs")
+app.set("view engine", "ejs")
+
 
 //Config archivos estáticos
 app.use(express.static("../public"));
@@ -12,17 +13,22 @@ app.use(express.static("../public"));
 const rutasProducto = require("./routes/producto");
 const rutasMain = require("./routes/main");
 const rutasUser = require("./routes/user");
-const rutasCarrito= require("./routes/carrito");
+const rutasCarrito = require("./routes/carrito");
+const res = require("express/lib/response");
+//const creacionproducto = require("./routes/creacionproduct");
 
-app.use("/producto",rutasProducto);
-app.use("/user",rutasUser);
-app.use("/carrito",rutasCarrito);
-app.use("/",rutasMain);
+app.use("/producto", rutasProducto);
+app.use("/user", rutasUser);
+app.use("/carrito", rutasCarrito);
+app.use("/", rutasMain);
+//app.use("/creacion", creacionproducto);
+
+app.use(require('./routes/creacionproduct'));
 
 
-app.get('/productCart', (req, res)=>{
+app.get('/productCart', (req, res) => {
     res.sendFile(__dirname + '/views/productCart.html');
-})
+});
 
 
 app.listen(process.env.PORT || 3000, function() {
