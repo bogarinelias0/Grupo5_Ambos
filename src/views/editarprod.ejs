@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/formeditar.css">
+    <%- include('./partials/head')%>
+</head>
+
+<body>
+    <%- include('./partials/navbar') %>
+        <section class="title">
+            <i class="fas fa-edit"></i>
+            <h2>Editar producto</h2>
+        </section>
+        <main>
+            <section class="tabs">
+                <input type="radio" name="tabs-example" id="tab1" class="tabs-radio" checked>
+                <label for="tab1" class="tabs-label"> Producto</label>
+                <article class="tabs-content">
+                    <form action="/" method="POST">
+                        <article class="name">
+                            <label for="name">Nombre del producto</label>
+                            <input type="text" name="name" id="name">
+                        </article>
+                        <article class="description">
+                            <label for="description">Descripcion</label>
+                            <input type="text" name="description" id="description">
+                        </article>
+                        <article class="price">
+                            <label for="price">Precio del producto</label>
+                            <input type="number" name="price" id="price" placeholder="$0">
+                        </article>
+                    </form>
+                </article>
+                <input type="radio" name="tabs-example" id="tab2" class="tabs-radio">
+                <label for="tab2" class="tabs-label"> Stock</label>
+                <article class="tabs-content stock-form">
+                    <h5>Cambiar stock disponible</h5>
+                    <form name="stockForm">
+                        <input type="range" name="stockrange" id="stockrange" value="8" min="1" max="50" oninput="stockmostrar.value = stockrange.value">
+                        <output name="stockmostrar" id="stockmostrar">8</output>
+                    </form>
+                </article>
+                <input type="radio" name="tabs-example" id="tab3" class="tabs-radio">
+                <label for="tab3" class="tabs-label">Imagen</label>
+                <article class="tabs-content image-cont">
+                    <img src="/images/producto1.jpg" alt="">
+                    <input type="file" class="file">
+                </article>
+            </section>
+        </main>
+</body>
+
+
+</html>
