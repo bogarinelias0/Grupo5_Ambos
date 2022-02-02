@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="/css/estilos.css">
-
+    <link rel="stylesheet" href="/css/formcreacion.css">
     <%- include('./partials/head')%>
 </head>
 
@@ -13,7 +13,7 @@
         <div class="form-group-create">
 
 
-            <h1 class="title">Creación Nuevo Producto</h1>
+            <h1 class="title">Creación de Nuevo Producto</h1>
 
             <form class="form-button" action="/products/list" method="post" enctype="multipart/form-data">
                 <input class="login-button" type="text" name="name" placeholder="Nombre del Producto" required>
@@ -49,13 +49,12 @@
 
 
 
-
             </select>
 
                 <br>
                 <label for="Precio">Precio del Producto</label>
                 <input class="login-button" type="number" name="Precio" step="any" min="1" placeholder="Precio" required>
-
+                <br>
                 <button class="send" type="submit">Entregar</button>
             </form>
 

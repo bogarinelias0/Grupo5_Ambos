@@ -1,15 +1,17 @@
 /*Estilos generales*/
-*{
+
+* {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+
 /*tipografias*/
 
-.titulo{
+.titulo {
     font-size: 4rem;
     font-weight: 550;
     font-family: 'The Nautigal', cursive;
@@ -32,7 +34,8 @@
 
 
 /* Navbar :) */
-nav{
+
+nav {
     background-color: #F3D3CCff;
     padding-top: 20px;
 }
@@ -43,75 +46,77 @@ nav{
     font-weight: 300;
 }
 
+.material-icons {
+    color: black;
+    font-weight: 50px;
+}
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-    
-nav ul li{
+
+nav ul li {
     list-style: none;
     padding-bottom: 10px;
     display: none;
 }
 
-.icon-bar{
+.icon-bar {
     text-align: end;
     position: relative;
     margin-top: -10px;
 }
 
-.icon-bar i{
+.icon-bar i {
     font-size: 40px;
     padding-right: 20px;
 }
-    
-nav h2{
+
+nav h2 {
     text-align: center;
     margin-top: -30px;
 }
-    
-.name-barsearch input{
+
+.name-barsearch input {
     display: none;
 }
 
-.icons-desktop{
+.icons-desktop {
     display: none;
 }
 
-
-@media (min-width:769px){
-    .icon-bar{
+@media (min-width:769px) {
+    .icon-bar {
         display: none;
     }
-    nav ul li{
+    nav ul li {
         display: block;
-        
     }
-    nav ul{
+    nav ul {
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-evenly;
     }
-    nav ul li a{
+    nav ul li a {
         border: 2px solid black;
         background-color: #dee2ff;
         padding: 5px 15px 5px 15px;
         text-decoration: none;
         color: black;
     }
-    nav ul li a:hover{
+    nav ul li a:hover {
         color: white;
         background-color: #fa5284ff;
-        transition: background-color,0.3s;
+        transition: background-color, 0.3s;
     }
-    nav h2{
+    nav h2 {
         margin-top: 0;
         text-align: left;
         padding-left: 200px;
     }
-    .name-barsearch{
+    .name-barsearch {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -121,7 +126,7 @@ nav h2{
         right: 100px;
         padding-bottom: 35px;
     }
-    .icons-desktop{
+    .icons-desktop {
         display: flex;
         width: 300px;
         flex-direction: row;
@@ -131,23 +136,24 @@ nav h2{
         position: relative;
         left: 63%;
     }
-    .icons-desktop article{
+    .icons-desktop article {
         padding-left: 40px;
         padding-right: 40px;
     }
-    .icons-desktop article i{
+    .icons-desktop article i {
         font-size: 20px;
-        color:#212529;
+        color: #212529;
     }
     .icons-desktop article button {
         border: 0px;
         background-color: transparent;
     }
-    .name-barsearch input{
+    .name-barsearch input {
         display: flex;
         max-height: 30px;
         align-self: center;
     }
 }
+
 
 /* fin navbar  */

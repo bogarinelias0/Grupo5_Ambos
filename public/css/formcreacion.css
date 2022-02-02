@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    font-size: 20 px;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    color: black;
+    padding-top: 25px;
+}
+
+.login-button {
+    color: black;
+    font-size: 15px;
+    font-family: 'roboto', sans-serif;
+    margin: 5px;
+    padding-top: 10 px;
+    text-align: center;
+}
+
+.form-group-create {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.send {
+    width: 40%;
+    padding: 10px 25px;
+    background-color: palevioletred;
+    color: black;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.send:hover {
+    background-color: rgb(234, 176, 195);
+    color: #000000;
+    transition: backgroun-color, 0.08s, color, 0.08;
+}
