@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-top: 138px;
+}
 
 /*tipografias*/
 
@@ -31,129 +34,3 @@
     font-size: 1.5rem;
     font-weight: 200;
 }
-
-
-/* Navbar :) */
-
-nav {
-    background-color: #F3D3CCff;
-    padding-top: 20px;
-}
-
-#nameMarca {
-    font-family: 'The Nautigal', cursive;
-    font-size: 3rem;
-    font-weight: 300;
-}
-
-.material-icons {
-    color: black;
-    font-weight: 50px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-nav ul li {
-    list-style: none;
-    padding-bottom: 10px;
-    display: none;
-}
-
-.icon-bar {
-    text-align: end;
-    position: relative;
-    margin-top: -10px;
-}
-
-.icon-bar i {
-    font-size: 40px;
-    padding-right: 20px;
-}
-
-nav h2 {
-    text-align: center;
-    margin-top: -30px;
-}
-
-.name-barsearch input {
-    display: none;
-}
-
-.icons-desktop {
-    display: none;
-}
-
-@media (min-width:769px) {
-    .icon-bar {
-        display: none;
-    }
-    nav ul li {
-        display: block;
-    }
-    nav ul {
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-evenly;
-    }
-    nav ul li a {
-        border: 2px solid black;
-        background-color: #dee2ff;
-        padding: 5px 15px 5px 15px;
-        text-decoration: none;
-        color: black;
-    }
-    nav ul li a:hover {
-        color: white;
-        background-color: #fa5284ff;
-        transition: background-color, 0.3s;
-    }
-    nav h2 {
-        margin-top: 0;
-        text-align: left;
-        padding-left: 200px;
-    }
-    .name-barsearch {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        width: 660px;
-        position: relative;
-        right: 100px;
-        padding-bottom: 35px;
-    }
-    .icons-desktop {
-        display: flex;
-        width: 300px;
-        flex-direction: row;
-        margin: -65px 0 0px 0;
-        padding-bottom: 40px;
-        justify-content: flex-end;
-        position: relative;
-        left: 63%;
-    }
-    .icons-desktop article {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .icons-desktop article i {
-        font-size: 20px;
-        color: #212529;
-    }
-    .icons-desktop article button {
-        border: 0px;
-        background-color: transparent;
-    }
-    .name-barsearch input {
-        display: flex;
-        max-height: 30px;
-        align-self: center;
-    }
-}
-
-
-/* fin navbar  */
