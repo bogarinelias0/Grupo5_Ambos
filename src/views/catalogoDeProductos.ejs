@@ -30,9 +30,9 @@
         <section id="productosDestacados">
           <% for (let i =0; i<productos.length; i++) { %>
             <article>
-              <img src= <%=productos[i].srcImg%> >
+              <img src= <%=productos[i].imagen%> >
               <div>
-                <h3><%= productos[i].nombre%></h3>
+                <h3><%= productos[i].nombre +" "+ productos[i].color%></h3>
                 <h3>$<%= productos[i].precio%></h3>
                 <i class="far fa-plus-square"></i>
               </div>
