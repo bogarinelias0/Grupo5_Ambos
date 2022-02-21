@@ -13,31 +13,13 @@ app.use(express.static("../public"));
 const rutasProducto = require("./routes/producto");
 const rutasMain = require("./routes/main");
 const rutasUser = require("./routes/user");
-
-//const rutasCarrito = require("./routes/carrito");
-const res = require("express/lib/response");
-const creacionproducto = require("./routes/creacionproduct");
-
 const rutasCarrito = require("./routes/carrito");
-const editProd = require("./routes/editprod")
-
-app.use("/producto", rutasProducto);
-
-app.use("/user", rutasUser);
-app.use("/carrito", rutasCarrito);
-app.use("/", rutasMain);
-app.use("/creacion", creacionproducto);
-
-app.use(require('./routes/creacionproduct'));
 
 
 app.use("/producto", rutasProducto);
 app.use("/user", rutasUser);
 app.use("/carrito", rutasCarrito);
 app.use("/", rutasMain);
-app.use("/edit", editProd);
-
-
 
 
 app.get('/productCart', (req, res) => {
