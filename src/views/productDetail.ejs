@@ -32,12 +32,13 @@
                     <p class="pago"> Ver otros Medios de pagos</p>
 
                     <div>
-                        <p class="talle">TALLE <select class="selector" aria-label="Talle">
-                  <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option></p>
+                        <p class="talle">TALLE</p>
+                    <select>
+                        <% for (let i =0; i<producto.talles.length; i++) { %>
+                            <option value="<%=producto.talles[i]%>">
+                              <%=producto.talles[i]%> 
+                            </option>
+                        <%}%> 
                     </select>
                     </div>
 
